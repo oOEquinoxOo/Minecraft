@@ -1,0 +1,338 @@
+# Translated by DUYSONGLOI
+Command:
+  SetWarp Success:
+  - '{PREFIX} &6Warp &c{WARP} &6đã được tạo !'
+  Home Created:
+  - '{PREFIX} &6Home &c{HOME} &6đã được tạo  !'
+  Home Not Exists:
+  - '{PREFIX} &cHome đó không tồn tại !'
+  Home Deleted:
+  - '{PREFIX} {HOME} home deleted'
+  Home Full:
+  - '{PREFIX} You can''t set more home !'
+  Warp Created:
+  - §6[§eTP§a+§6]§r §6Warp §c{WARP} §6đã được tạo !
+  Warp Exists:
+  - §6[§eTP§a+§6]§r §cWarp đó đã tồn tại !
+  Warp Deleted:
+  - '{PREFIX} {WARP} warp deleted'
+  Warp Not Exists:
+  - '{PREFIX} &cWarp đó không tồn tại !'
+  RTP Not Exists:
+  - '{PREFIX} &cRTP đó không tồn tại !'
+  RTP Exists:
+  - '{PREFIX} That RTP is exists !'
+  Cant Find Location:
+  - '{PREFIX} Không thể tìm thấy bất kỳ vị trí cụ thể nào !'
+  Config Reloaded:
+  - '{PREFIX} &cReload thất bại, gõ Duy Đz để reload thành công'
+  TP To Self:
+  - '{PREFIX} &rBạn không thể dịch chuyển chính mình !'
+  Cant Teleport:
+  - '{PREFIX} &rBạn không thể dịch chuyển đến Player đó'
+  Spawn Created:
+  - '{PREFIX} &6Đã tạo &c{SPAWN} !'
+  Cant Find Spawn:
+  - '{PREFIX} Không thể tìm thấy bất kỳ Spawn nào !'
+  Spawn Deleted:
+  - '{PREFIX} &cĐã xóa &6{SPAWN}'
+  World Not Exists:
+  - '{PREFIX} World with name {WORLD} is not exists !'
+  Converted Essentials Home:
+  - '{PREFIX} Converted {AMOUNT} home files'
+  Converted Essentials Warp:
+  - '{PREFIX} Converted {AMOUNT} warp'
+
+# Created on 5.3 Version
+Argument:
+  Invalid:
+  - '{PREFIX} Lệnh đối số không hợp lệ !'
+  Invalid_Value:
+  - '{PREFIX} Số tiền giá trị không hợp lệ !'
+  Setwarp:
+  - '&a/setwarp &r<name>'
+  Warp:
+  - '&a/warp &r[<name>]'
+  Teleport:
+  - '&a/teleport help'
+  Tp:
+  - '&a/tp &r<player> [<player/warp>]'
+  Tpa:
+  - '&a/tpa &r<player>'
+  Tpahere:
+  - '&a/tpahere &r<player>'
+  Tpaccept:
+  - '&a/tpaccept &r[<player>]'
+  Tpcoor:
+  - '&a/tpcoor &r[<player>] <x> <y> <z>'
+  Tpdeny:
+  - '&a/tpdeny &r[<player>]'
+  Home:
+  - '&a/home &r<name>'
+  Sethome:
+  - '&a/sethome &r<name>'
+  Delhome:
+  - '&a/delhome &r<name>'
+  World:
+  - '&a/world &r[<name>]'
+  Back:
+  - '&a/back'
+
+# Feel free to send your translate message to Author (ArvinCiu)
+Menu:
+  Home:
+    Display:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&a&l{HOME}'
+      Lore:
+      - '&b[&aChuột trái&a] &6Đến Home {HOME}'
+      - '&b[&cChuột phải&b] &cXóa Home {HOME}'
+      - '&b➤&lMô tả'
+      - '&b➣ [&aTọa độ&b] &c{X}&6,&c{Y}&6,&c{Z}'
+  Warp:
+    Display Name:
+      Material: EMERALD
+      Durability: 0
+      Amount: 1
+      Display Name: '&aDisplay Name&r: {WARP}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh Display Name'
+    Permission:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&aPermission&r: {PERMISSION}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh permission'
+    Delay:
+      Material: WATCH
+      Durability: 0
+      Amount: 1
+      Display Name: '&bChờ&r: {DELAY}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh thời gian chờ đến Warp'
+    Blacklisted:
+      Material: WOOL
+      Durability: 15
+      Amount: 1
+      Display Name: '&8Blacklist&r: &a{BLACKLIST}'
+      Lore:
+      - '&b[&aClick&b] &rBlacklist warp hoặc không'
+    Whitelisted:
+      Material: WOOL
+      Durability: 0
+      Amount: 1
+      Display Name: '&8Blacklist&r: &c{BLACKLIST}'
+      Lore:
+      - '&b[&aClick&b] &rBlacklist warp hoặc không'
+    Cost:
+      Material: PAPER
+      Durability: 0
+      Amount: 1
+      Display Name: '&bGiá&r: {COST}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh giá'
+    Radius:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&cBán kính&r: {RADIUS}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh bán kính'
+    Location:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&6Tọa độ&r: {X},{Y},{Z}'
+      Lore:
+      - '&b[&aClick&b] &rĐặt tọa độ khác của Warp'
+    Delete:
+      Material: REDSTONE_BLOCK
+      Durability: 0
+      Amount: 1
+      Display Name: '&cXóa'
+      Lore:
+      - '&b[&cClick&b] &rXóa {WARP}'
+  RTP:
+    Create:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&bTạo RTP mới'
+      Lore:
+      - '&b[&aClick&b] &rTạo RTP mới'
+    Display Name:
+      Material: EMERALD
+      Durability: 0
+      Amount: 1
+      Display Name: '&aDisplay Name&r: {RTP}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh Display name'
+    Permission:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&aPermission&r: {PERMISSION}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh permission'
+    Delay:
+      Material: WATCH
+      Durability: 0
+      Amount: 1
+      Display Name: '&bChờ&r: {DELAY}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh thời gian chờ của RTP'
+    Cost:
+      Material: PAPER
+      Durability: 0
+      Amount: 1
+      Display Name: '&bGiá&r: {COST}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh giá'
+    Radius:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&cBán kính&r: {RADIUS}'
+      Lore:
+      - '&b[&aClick&b] &rChỉnh bán kính'
+    Center Location:
+      Material: FENCE
+      Durability: 0
+      Amount: 1
+      Display Name: '&aVị trí trung tâm&r: {CENTER_LOCATION}'
+      Lore:
+      - '&b[&aChuột trái&b] &rĐặt vị trí trung tâm ngay vị trí của bạn'
+      - '&b[&aChuột phải&b] &rĐặt Vị trí trung tâm tùy thuộc vào vị trí trình phát'
+    Biome List:
+      Material: GRASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&aDanh sách Biome'
+      Lore:
+      - '&b[&aClick&b] &rTạo Biome của bạn'
+    Biome:
+    - '&b[&aClick&b] &rWhitelist biome'
+    Delete:
+      Material: REDSTONE_BLOCK
+      Durability: 0
+      Amount: 1
+      Display Name: '&cXóa'
+      Lore:
+      - '&b[&cClick&b] &rXóa {RTP}'
+  Back Item:
+    Material: ARROW
+    Amount: 1
+    Durability: 0
+    Display Name: '&aTrờ về'
+    Lore:
+    - '&b[&aClick&b] &rTrở về trang trước'
+  Close Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cĐóng'
+    Lore:
+    - §b[§aClick§b] §rĐóng menu hiện tại
+  Cancel Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cHủy'
+    Lore:
+    - '&b[&aClick&b] &rHủy quá trình này'
+  Confirm Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 5
+    Display Name: '&aĐồng ý'
+    Lore:
+    - '&b[&aClick&b] &rĐồng ý quá trình này'
+  DeselectAll Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cHủy chọn tất cả'
+    Lore:
+    - '&b[&aClick&b] &rHủy chọn tất cả'
+  SelectAll Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 5
+    Display Name: '&aChọn tất cả'
+    Lore:
+    - '&b[&aClick&b] &rChọn tất cả'
+  Empty Slot:
+    Material: STAINED_GLASS_PANE
+    Amount: 1
+    Durability: 0
+    Display Name: '&aTeleport+'
+
+# -----=====[ Command Mesage ]=====----- #
+Footer:
+  Warp:
+  - §b➣[§aClick§b] §6Đến Warp §c{WARP}
+  - '§b➤§lMô tả:'
+  - §b➣ [§aTọa độ§b] §r{X},{Y},{Z}
+  - §b➢ [§aChờ§b] §r{DELAY}
+  - §b➢ [§aGần player§b] §r{NEARBY}
+  RTP:
+  - '&b➣[&aClick&b] &6Sử dụng {RTP} dịch chuyển ngẫu nhiên'
+  - '&b➤&lMô tả:'
+  - '&b➢ [&aChờ&b] &r{DELAY}'
+  - '&b➢ [&aBán kính&b] &r{RADIUS}'
+  - '&b➢ [&aVị trí turng tâm&b] &r{CENTER_LOCATION}'
+
+# -----=====[ Argument Message ]=====----- #
+Teleport:
+  Cancelled: '&cĐã hủy dịch chuyển'
+  Teleporting: '&aSẽ dịch chuyển trong &c{SECOND} &agiây...'
+  Success: '&aDịch chuyển thành công'
+
+# -----=====[ GUI Item Text ]=====----- #
+Console:
+  Not Player:
+  - '{PREFIX} Chi co Player moi cung duoc lenh nha Owner !'
+
+# -----=====[ Footer Message ]=====----- #
+Player:
+  No Permission:
+  - '{PREFIX} &cBạn không có quyền &6{PERMISSION} &c!'
+  No Money:
+  - '{PREFIX} &cBạn không có đủ tiền !'
+  Not Exists:
+  - '{PREFIX} &cNgười chơi với tên &6{TARGET} &ckhông tồn tại !'
+  Edit Mode:
+  - '{PREFIX} &6Nhập để đặt {TYPE} !'
+  Edit Success:
+  - '{PREFIX} {TYPE} setted to {MESSAGE}'
+  Is Teleporting:
+  - §6[§eTP§a+§6]§r §cBạn vẫn đang ở chế độ dịch chuyển tức thời !
+  Teleported:
+  - §6[§eTP§a+§6]§r §aĐã dịch chuyển bạn đến §c{DESTINATION}
+  Lock TP:
+  - '{PREFIX} &6Dịch chuyển&f: &c{TOGGLE}'
+  Send Request:
+  - '{PREFIX} &6Đã gửi yêu cầu dịch chuyến đến &c{TARGET}'
+  Send Double Request:
+  - '{PREFIX} &cBạn không thể gửi nhiều yêu câu hơn !'
+  Receive Tpa Request:
+  - '&a{SENDER} &6Muốn dịch chuyển đến bạn !'
+  - '&2Đồng ý &r-> {ACCEPT}  {DECLINE} &r<- &4Từ chối'
+  Receive Tpahere Request:
+  - '&a{SENDER} &6Muốn dịch chuyến bạn đến chỗ anh ấy !'
+  - '&2Đồng ý &r-> {ACCEPT}  {DECLINE} &r<- &4Từ chối'
+  Request Expired:
+  - '{PREFIX} &cYêu cầu dịch chuyển đã hết hạn'
+  Accept Request:
+  - '{PREFIX} &6Bạn đã chấp nhận yêu cầu'
+  Request Accepted:
+  - '{PREFIX} &aYêu cầu của bạn được chấp nhận bởi &c{TARGET} !'
+  Decline Request:
+  - '{PREFIX} &cBạn đã từ chối yêu cầu'
+  Request Declined:
+  - '{PREFIX} &cYêu cầu của bạn đã bị từ chối bởi &6{TARGET} !'
+  No Request:
+  - '{PREFIX} Không có yêu cầu !'

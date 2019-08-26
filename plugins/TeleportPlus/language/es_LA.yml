@@ -1,0 +1,339 @@
+# Translated by Juessa
+Command:
+  SetWarp Success:
+  - '{PREFIX} ¡ Warp &a{WARP}&r creado !'
+  Home Created:
+  - '{PREFIX} ¡ Hogar {HOME} creado !'
+  Home Not Exists:
+  - '{PREFIX} ¡ Ese Hogar no existe !'
+  Home Deleted:
+  - '{PREFIX} ¡ Hogar {HOME} removido !'
+  Home Full:
+  - '{PREFIX} You can''t set more home !'
+  Warp Created:
+  - '{PREFIX} ¡ Warp {WARP} creado !'
+  Warp Exists:
+  - '{PREFIX} ¡ Ese Warp ya existe !'
+  Warp Deleted:
+  - '{PREFIX} ¡ Warp {WARP} removido !'
+  Warp Not Exists:
+  - '{PREFIX} ¡ Ese Warp no existe !'
+  RTP Not Exists:
+  - '{PREFIX} ¡ Ese RTP no existe !'
+  RTP Exists:
+  - '{PREFIX} That RTP is exists !'
+  Cant Find Location:
+  - '{PREFIX} ¡ No se encontró la Localización Especificada !'
+  Config Reloaded:
+  - '{PREFIX} &a¡ Configuración recargada !'
+  TP To Self:
+  - '{PREFIX} ¡ No puedes Teletransportarte a ti mismo !'
+  Cant Teleport:
+  - '{PREFIX} ¡ No puedes Teletransportarte a el/ella !'
+  Spawn Created:
+  - '{PREFIX} ¡ Spawn {SPAWN} creado !'
+  Cant Find Spawn:
+  - '{PREFIX} ¡ No se encontró ningún Spawn !'
+  Spawn Deleted:
+  - '{PREFIX} ¡ Spawn {SPAWN} removido !'
+  World Not Exists:
+  - '{PREFIX} World with name {WORLD} is not exists !'
+  Converted Essentials Home:
+  - '{PREFIX} Converted {AMOUNT} home files'
+  Converted Essentials Warp:
+  - '{PREFIX} Converted {AMOUNT} warp'
+
+# Created on 5.3 Version
+Argument:
+  Invalid:
+  - '{PREFIX} ¡ Comando Inválido !'
+  Invalid_Value:
+  - '{PREFIX} ¡ Valor Inválido !'
+  Setwarp:
+  - '&a/setwarp &r<nombre>'
+  Warp:
+  - '&a/warp &r[<nombre>]'
+  Teleport:
+  - '&a/teleport help'
+  Tp:
+  - '&a/tp &r<jugador> [<jugador/warp>]'
+  Tpa:
+  - '&a/tpa &r<jugador>'
+  Tpahere:
+  - '&a/tpahere &r<jugador>'
+  Tpaccept:
+  - '&a/tpaccept &r[<jugador>]'
+  Tpcoor:
+  - '&a/tpcoor &r[<jugador>] <x> <y> <z>'
+  Tpdeny:
+  - '&a/tpdeny &r[<jugador>]'
+  Home:
+  - '&a/home &r<nombre>'
+  Sethome:
+  - '&a/sethome &r<nombre>'
+  Delhome:
+  - '&a/delhome &r<nombre>'
+  World:
+  - '&a/world &r[<name>]'
+  Back:
+  - '&a/back'
+
+# Feel free to send your translate message to Author (ArvinCiu)
+Menu:
+  Home:
+    Display:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&a&l{HOME}'
+      Lore:
+      - '&b[&aClick Izquierdo&a] &rIr a la Ubicación de {HOME}'
+      - '&b[&cClick Derecho&b] &rRemover {HOME}'
+      - '&b➤&lDescripción'
+      - '&b➣ [&aLocalización&b] &r{X},{Y},{Z}'
+  Warp:
+    Display Name:
+      Material: EMERALD
+      Durability: 0
+      Amount: 1
+      Display Name: '&aNombre&r: {WARP}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Nombre'
+    Permission:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&aPermiso&r: {PERMISSION}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Permiso'
+    Delay:
+      Material: WATCH
+      Durability: 0
+      Amount: 1
+      Display Name: '&bDemora&r: {DELAY}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Demora'
+    Blacklisted:
+      Material: WOOL
+      Durability: 15
+      Amount: 1
+      Display Name: '&8Lista Negra&r: &a{BLACKLIST}'
+      Lore:
+      - '&b[&aClick&b] &rPoner en Lista Negra este Warp o no'
+    Whitelisted:
+      Material: WOOL
+      Durability: 0
+      Amount: 1
+      Display Name: '&8Lista Negra&r: &c{BLACKLIST}'
+      Lore:
+      - '&b[&aClick&b] &rPoner en Lista Negra este Warp o no'
+    Cost:
+      Material: PAPER
+      Durability: 0
+      Amount: 1
+      Display Name: '&bCosto&r: {COST}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Costo'
+    Radius:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&cRadio&r: {RADIUS}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Radio'
+    Location:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&6Localización&r: {X},{Y},{Z}'
+      Lore:
+      - '&b[&aClick&b] &rEstablecer la Localización del Warp en tu Localización'
+    Delete:
+      Material: REDSTONE_BLOCK
+      Durability: 0
+      Amount: 1
+      Display Name: '&cRemover'
+      Lore:
+      - '&b[&cClick&b] &rRemover {WARP}'
+  RTP:
+    Create:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&bCrear una nueva Teletranspotación Aleatoria'
+      Lore:
+      - '&b[&aClick&b] &rCrear una nueva Teletranspotación Aleatoria'
+    Display Name:
+      Material: EMERALD
+      Durability: 0
+      Amount: 1
+      Display Name: '&aNombre&r: {RTP}'
+      Lore:
+      - '&b[&aClick&b] &rModificar Nombre'
+    Permission:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&aPermiso&r: {PERMISSION}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Permiso'
+    Delay:
+      Material: WATCH
+      Durability: 0
+      Amount: 1
+      Display Name: '&bDemora&r: {DELAY}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Demora'
+    Cost:
+      Material: PAPER
+      Durability: 0
+      Amount: 1
+      Display Name: '&bCosto&r: {COST}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Costo'
+    Radius:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&cRadio&r: {RADIUS}'
+      Lore:
+      - '&b[&aClick&b] &rEditar Radio'
+    Center Location:
+      Material: FENCE
+      Durability: 0
+      Amount: 1
+      Display Name: '&aUbicación Central&r: {CENTER_LOCATION}'
+      Lore:
+      - '&b[&aLeft Click&b] &rEstablecer la Ubicación Central en tu Localización'
+      - '&b[&aRight Click&b] &rEstablecer la Ubicación Central en la Localización
+        de un Jugador'
+    Biome List:
+      Material: GRASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&aLista de Biomas'
+      Lore:
+      - '&b[&aClick&b] &rEstablece tus Biomas'
+    Biome:
+    - '&b[&aClick&b] &rPoner Bioma en Lista Blanca'
+    Delete:
+      Material: REDSTONE_BLOCK
+      Durability: 0
+      Amount: 1
+      Display Name: '&cEliminar'
+      Lore:
+      - '&b[&cClick&b] &rEliminar {RTP}'
+  Back Item:
+    Material: ARROW
+    Amount: 1
+    Durability: 0
+    Display Name: '&aRegresar'
+    Lore:
+    - '&b[&aClick&b] &rRegresar al Menu Previo'
+  Close Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cCerrar'
+    Lore:
+    - '&b[&aClick&b] &rCerrar el Menu Actual'
+  Cancel Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cCancelar'
+    Lore:
+    - '&b[&aClick&b] &rCancelar este Proceso'
+  Confirm Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 5
+    Display Name: '&aConfirmar'
+    Lore:
+    - '&b[&aClick&b] &rConfirmar este Proceso'
+  DeselectAll Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cDeseleccionar Todo'
+    Lore:
+    - '&b[&aClick&b] &rDeseleccionar Todo'
+  SelectAll Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 5
+    Display Name: '&aSeleccionar Todo'
+    Lore:
+    - '&b[&aClick&b] &rSeleccionar Todo'
+  Empty Slot:
+    Material: STAINED_GLASS_PANE
+    Amount: 1
+    Durability: 0
+    Display Name: '&aTeleport+'
+
+# -----=====[ Mensajes de Comandos ]=====----- #
+Footer:
+  Warp:
+  - '&b➣[&aClick&b] &rIr a la localización de "{WARP}"'
+  - '&b➤&lDescripción'
+  - '&b➣ [&aLocalización&b] &r{X},{Y},{Z}'
+  - '&b➢ [&aDemora&b] &r{DELAY}'
+  - '&b➢ [&aJugadores Cercanos&b] &r{NEARBY}'
+  RTP:
+  - '&b➣[&aClick&b] &rUsar Teletransportación Aleatoria {RTP}'
+  - '&b➤&lDescripción'
+  - '&b➢ [&aDemora&b] &r{DELAY}'
+  - '&b➢ [&aRadio&b] &r{RADIUS}'
+  - '&b➢ [&aUbicación Central&b] &r{CENTER_LOCATION}'
+
+# -----=====[ Mensajes de Argumento ]=====----- #
+Teleport:
+  Cancelled: '&4Teletransportación Cancelada.'
+  Teleporting: '&aTeletransportación en &c{SECOND} &asegundos...'
+  Success: '&aTeletransportado con Éxito.'
+
+# -----=====[ Textos de Items del GUI ]=====----- #
+Console:
+  Not Player:
+  - '{PREFIX} ¡ Solo los Jugadores pueden usar este Comando !'
+
+# -----=====[ Mensajes de Pie de Página ]=====----- #
+Player:
+  No Permission:
+  - '{PREFIX} ¡ No tienes el permiso &a{PERMISSION} &r!'
+  No Money:
+  - '{PREFIX} ¡ Dinero Insuficiente !'
+  Not Exists:
+  - '{PREFIX} ¡ El Jugador con el nombre &a"{TARGET}" &rno existe.'
+  Edit Mode:
+  - '{PREFIX} ¡ Escribe para Configurar {TYPE} !'
+  Edit Success:
+  - '{PREFIX} {TYPE} configurada a {MESSAGE}.'
+  Is Teleporting:
+  - '{PREFIX} ¡ Sigues Teletransportandote !'
+  Teleported:
+  - '{PREFIX} Teletransportado a {DESTINATION}.'
+  Lock TP:
+  - '{PREFIX} Tu bloqueo de tp ahora es {TOGGLE}.'
+  Send Request:
+  - '{PREFIX} Solicitud de Teletransporte enviada a {TARGET}.'
+  Send Double Request:
+  - '{PREFIX} ¡ No puedes enviar más de una solicitud a la vez !'
+  Receive Tpa Request:
+  - '&r¡ &a{SENDER} &rquiere Teletransportarse a tu Ubicación !'
+  - '&2Aceptar &r-> {ACCEPT}  {DECLINE} &r<- &4Declinar'
+  Receive Tpahere Request:
+  - '&r¡ &a{SENDER} &rquiere Teletransportarte a su Ubicación !'
+  - '&2Aceptar &r-> {ACCEPT}  {DECLINE} &r<- &4Declinar'
+  Request Expired:
+  - '{PREFIX} ¡ Solicitud de Teletransporte Expirado !'
+  Accept Request:
+  - '{PREFIX} Aceptaste la Solicitud.'
+  Request Accepted:
+  - '{PREFIX} ¡ Solicitud Aceptada por {TARGET} !'
+  Decline Request:
+  - '{PREFIX} Declinaste la Solicitud.'
+  Request Declined:
+  - '{PREFIX} ¡ Solicitud Declinada por {TARGET} !'
+  No Request:
+  - '{PREFIX} ¡ No hay Solicitudes !'

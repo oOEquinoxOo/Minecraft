@@ -1,0 +1,338 @@
+# -----=====[ Command Mesage ]=====----- #
+Command:
+  SetWarp Success:
+  - '{PREFIX} &a{WARP}&r has been set !'
+  Home Created:
+  - '{PREFIX} {HOME} home created !'
+  Home Not Exists:
+  - '{PREFIX} That home is not exists !'
+  Home Deleted:
+  - '{PREFIX} {HOME} home deleted'
+  Home Full:
+  - '{PREFIX} You can''t set more home !'
+  Warp Created:
+  - '{PREFIX} {WARP} warp created !'
+  Warp Exists:
+  - '{PREFIX} That warp is exists !'
+  Warp Deleted:
+  - '{PREFIX} {WARP} warp deleted'
+  Warp Not Exists:
+  - '{PREFIX} That warp is not exists !'
+  RTP Not Exists:
+  - '{PREFIX} That RTP is not exists !'
+  RTP Exists:
+  - '{PREFIX} That RTP is exists !'
+  Cant Find Location:
+  - '{PREFIX} Can''t find any spesific location !'
+  Config Reloaded:
+  - '{PREFIX} &aConfig reloaded'
+  TP To Self:
+  - '{PREFIX} You cant teleport to yourself !'
+  Cant Teleport:
+  - '{PREFIX} You cant teleport to him or her'
+  Spawn Created:
+  - '{PREFIX} {SPAWN} spawn created !'
+  Cant Find Spawn:
+  - '{PREFIX} Can''t find any spawn !'
+  Spawn Deleted:
+  - '{PREFIX} {SPAWN} spawn deleted'
+  World Not Exists:
+  - '{PREFIX} World with name {WORLD} is not exists !'
+  Converted Essentials Home:
+  - '{PREFIX} Converted {AMOUNT} home files'
+  Converted Essentials Warp:
+  - '{PREFIX} Converted {AMOUNT} warp'
+
+# -----=====[ Argument Message ]=====----- #
+Argument:
+  Invalid:
+  - '{PREFIX} Argument command is invalid !'
+  Invalid_Value:
+  - '{PREFIX} Invalid value amount !'
+  Setwarp:
+  - '&a/setwarp &r<name>'
+  Warp:
+  - '&a/warp &r[<name>]'
+  Teleport:
+  - '&a/teleport help'
+  Tp:
+  - '&a/tp &r<player> [<player/warp>]'
+  Tpa:
+  - '&a/tpa &r<player>'
+  Tpahere:
+  - '&a/tpahere &r<player>'
+  Tpaccept:
+  - '&a/tpaccept &r[<player>]'
+  Tpcoor:
+  - '&a/tpcoor &r[<player>] <x> <y> <z>'
+  Tpdeny:
+  - '&a/tpdeny &r[<player>]'
+  Home:
+  - '&a/home &r<name>'
+  Sethome:
+  - '&a/sethome &r<name>'
+  Delhome:
+  - '&a/delhome &r<name>'
+  World:
+  - '&a/world &r[<name>]'
+  Back:
+  - '&a/back'
+
+# -----=====[ GUI Item Text ]=====----- #
+Menu:
+  Home:
+    Display:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&a&l{HOME}'
+      Lore:
+      - '&b[&aLeft Click&a] &rGo {HOME} location'
+      - '&b[&cRight Click&b] &rDelete {HOME}'
+      - '&b➤&lDescription'
+      - '&b➣ [&aLocation&b] &r{X},{Y},{Z}'
+  Warp:
+    Display Name:
+      Material: EMERALD
+      Durability: 0
+      Amount: 1
+      Display Name: '&aDisplay Name&r: {WARP}'
+      Lore:
+      - '&b[&aClick&b] &rEdit display name'
+    Permission:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&aPermission&r: {PERMISSION}'
+      Lore:
+      - '&b[&aClick&b] &rEdit permission'
+    Delay:
+      Material: WATCH
+      Durability: 0
+      Amount: 1
+      Display Name: '&bDelay&r: {DELAY}'
+      Lore:
+      - '&b[&aClick&b] &rEdit delay'
+    Blacklisted:
+      Material: WOOL
+      Durability: 15
+      Amount: 1
+      Display Name: '&8Blacklist&r: &a{BLACKLIST}'
+      Lore:
+      - '&b[&aClick&b] &rBlacklist warp or no'
+    Whitelisted:
+      Material: WOOL
+      Durability: 0
+      Amount: 1
+      Display Name: '&8Blacklist&r: &c{BLACKLIST}'
+      Lore:
+      - '&b[&aClick&b] &rBlacklist warp or no'
+    Cost:
+      Material: PAPER
+      Durability: 0
+      Amount: 1
+      Display Name: '&bCost&r: {COST}'
+      Lore:
+      - '&b[&aClick&b] &rEdit fee'
+    Radius:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&cRadius&r: {RADIUS}'
+      Lore:
+      - '&b[&aClick&b] &rEdit radius'
+    Location:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&6Location&r: {X},{Y},{Z}'
+      Lore:
+      - '&b[&aClick&b] &rSet warp location to your location'
+    Delete:
+      Material: REDSTONE_BLOCK
+      Durability: 0
+      Amount: 1
+      Display Name: '&cDelete'
+      Lore:
+      - '&b[&cClick&b] &rDelete {WARP}'
+  RTP:
+    Create:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&bCreate new random teleport'
+      Lore:
+      - '&b[&aClick&b] &rCreate new random teleport'
+    Display Name:
+      Material: EMERALD
+      Durability: 0
+      Amount: 1
+      Display Name: '&aDisplay Name&r: {RTP}'
+      Lore:
+      - '&b[&aClick&b] &rEdit display name'
+    Permission:
+      Material: SIGN
+      Durability: 0
+      Amount: 1
+      Display Name: '&aPermission&r: {PERMISSION}'
+      Lore:
+      - '&b[&aClick&b] &rEdit permission'
+    Delay:
+      Material: WATCH
+      Durability: 0
+      Amount: 1
+      Display Name: '&bDelay&r: {DELAY}'
+      Lore:
+      - '&b[&aClick&b] &rEdit delay'
+    Cost:
+      Material: PAPER
+      Durability: 0
+      Amount: 1
+      Display Name: '&bCost&r: {COST}'
+      Lore:
+      - '&b[&aClick&b] &rEdit fee'
+    Radius:
+      Material: COMPASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&cRadius&r: {RADIUS}'
+      Lore:
+      - '&b[&aClick&b] &rEdit radius'
+    Center Location:
+      Material: FENCE
+      Durability: 0
+      Amount: 1
+      Display Name: '&aCenter Location&r: {CENTER_LOCATION}'
+      Lore:
+      - '&b[&aLeft Click&b] &rSet Center Location to your location'
+      - '&b[&aRight Click&b] &rSet Center Location depend to player location'
+    Biome List:
+      Material: GRASS
+      Durability: 0
+      Amount: 1
+      Display Name: '&aBiome List'
+      Lore:
+      - '&b[&aClick&b] &rSet your biomes'
+    Biome:
+    - '&b[&aClick&b] &rWhitelist biome'
+    Delete:
+      Material: REDSTONE_BLOCK
+      Durability: 0
+      Amount: 1
+      Display Name: '&cDelete'
+      Lore:
+      - '&b[&cClick&b] &rDelete {RTP}'
+  Back Item:
+    Material: ARROW
+    Amount: 1
+    Durability: 0
+    Display Name: '&aBack'
+    Lore:
+    - '&b[&aClick&b] &rBack to previous menu'
+  Close Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cClose'
+    Lore:
+    - '&b[&aClick&b] &rClose current menu'
+  Cancel Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cCancel'
+    Lore:
+    - '&b[&aClick&b] &rCancel this process'
+  Confirm Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 5
+    Display Name: '&aConfirm'
+    Lore:
+    - '&b[&aClick&b] &rConfirm this process'
+  DeselectAll Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 14
+    Display Name: '&cDeselect All'
+    Lore:
+    - '&b[&aClick&b] &rDeselect all'
+  SelectAll Item:
+    Material: WOOL
+    Amount: 1
+    Durability: 5
+    Display Name: '&aSelect All'
+    Lore:
+    - '&b[&aClick&b] &rSelect All'
+  Empty Slot:
+    Material: STAINED_GLASS_PANE
+    Amount: 1
+    Durability: 0
+    Display Name: '&aTeleport+'
+
+# -----=====[ Footer Message ]=====----- #
+Footer:
+  Warp:
+  - '&b➣[&aClick&b] &rGo {WARP} location'
+  - '&b➤&lDescription'
+  - '&b➣ [&aLocation&b] &r{X},{Y},{Z}'
+  - '&b➢ [&aDelay&b] &r{DELAY}'
+  - '&b➢ [&aNearby Player&b] &r{NEARBY}'
+  RTP:
+  - '&b➣[&aClick&b] &rUse {RTP} random teleport'
+  - '&b➤&lDescription'
+  - '&b➢ [&aDelay&b] &r{DELAY}'
+  - '&b➢ [&aRadius&b] &r{RADIUS}'
+  - '&b➢ [&aCenter Location&b] &r{CENTER_LOCATION}'
+
+# -----=====[ Teleport Message ]=====----- #
+Teleport:
+  Cancelled: '&4Teleport Cancelled'
+  Teleporting: '&aTeleport in &c{SECOND} &aseconds...'
+  Success: '&aTeleported Successfully'
+
+# -----=====[ Console Message ]=====----- #
+Console:
+  Not Player:
+  - '{PREFIX} Only player can execute this command !'
+
+# -----=====[ Player Message ]=====----- #
+Player:
+  No Permission:
+  - '{PREFIX} You don''t have &a{PERMISSION} &rpermission !'
+  No Money:
+  - '{PREFIX} You don''t have enough money !'
+  Not Exists:
+  - '{PREFIX} Player with name &a{TARGET} &ris not exists !'
+  Edit Mode:
+  - '{PREFIX} Type to set {TYPE} !'
+  Edit Success:
+  - '{PREFIX} {TYPE} setted to {MESSAGE}'
+  Is Teleporting:
+  - '{PREFIX} You''re still in teleporting mode !'
+  Teleported:
+  - '{PREFIX} Teleported you to {DESTINATION}'
+  Lock TP:
+  - '{PREFIX} Your tp lock now is {TOGGLE}'
+  Send Request:
+  - '{PREFIX} Teleport request sent to {TARGET}'
+  Send Double Request:
+  - '{PREFIX} You can''t send more than a request !'
+  Receive Tpa Request:
+  - '&a{SENDER} &rwant teleport to you !'
+  - '&2Accept &r-> {ACCEPT}  {DECLINE} &r<- &4Decline'
+  Receive Tpahere Request:
+  - '&a{SENDER} &rwant you to teleport to there !'
+  - '&2Accept &r-> {ACCEPT}  {DECLINE} &r<- &4Decline'
+  Request Expired:
+  - '{PREFIX} Teleport request expired'
+  Accept Request:
+  - '{PREFIX} You accepted the request'
+  Request Accepted:
+  - '{PREFIX} Your request accepted by {TARGET} !'
+  Decline Request:
+  - '{PREFIX} You declined the request'
+  Request Declined:
+  - '{PREFIX} Your request declined by {TARGET} !'
+  No Request:
+  - '{PREFIX} There''s no request !'

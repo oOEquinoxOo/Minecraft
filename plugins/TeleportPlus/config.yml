@@ -1,0 +1,100 @@
+# Prefix Chat
+Prefix Chat: '&6[&eTP&a+&6]&r'
+
+# Default Language
+Default Language: en_US
+
+# Fee if u want it to be priced
+# PayOnTPCancelled true you are charged, even if your teleport is cancelled.
+# false you only pay after you successfully teleport.
+# Must have Vault !
+# God Mode will effected to player after player teleported,
+# set it to 0 if wanna disable it.
+# Pet will teleported with you, if the pet in radius with you too.
+# Hostile Mob = Delay will increased when monster around
+Teleport:
+  Fee:
+    Cost: 0
+    PayOnTPCancelled: true
+  God Mode:
+    Duration: 2
+  Pet:
+    Enable: true
+    Radius: 5
+  Delay:
+    Default: 5
+    VIP: 4
+    VVIP: 3
+
+# Economy
+# Enable it only when you have Vault !
+Economy:
+  Enable: false
+
+# Storage
+Database:
+  Type: SQLite
+
+  # MySQL Settings
+  MySQL:
+    Host: yourhost
+    Port: yourport
+    Database: yourdatabase
+    User: youruser
+    Password: yourpassword
+
+# Teleport Particle on/off
+# Teleport Model [Triple Circle, Halo]
+Particle:
+  Enable: true
+  Model: Triple Circle
+  Custom Color:
+    Enable: false
+    R: 219
+    G: 255
+    B: 255
+
+# Hologram Text
+# Must have HolographicDisplays
+Hologram:
+  Enable: false
+
+# Action Bar
+Action Bar:
+  Enable: true
+
+# Title Text
+Title:
+  Enable: true
+  Duration:
+    FadeIn: 0
+    FadeOut: 0
+
+# Home
+# TYPE LIST [JSON,GUI]
+Home:
+  Type: GUI
+
+# Request Timeout in Seconds
+Request:
+  Timeout: 120
+  JSON: true
+
+# Warp
+# TYPE LIST [JSON,GUI]
+Warp:
+  Type: GUI
+
+# Dead Location set to Last Location
+Dead:
+  Save Location: true
+
+# Sound Effect
+# Volume sound setted as Float
+# Only need to configure for the version of minecraft you run
+Sound Effect:
+  Enable: true
+  1,8 Sound: minecraft:portal.travel
+  1,9+ Sound: minecraft:block.portal.travel
+  Volume: 1.0
+  Pitch: 1.0

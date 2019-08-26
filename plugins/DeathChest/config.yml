@@ -1,0 +1,4 @@
+remove_chest_time: 120
+protect_chests: true
+disabled_worlds:
+- example_world
