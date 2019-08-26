@@ -1,2 +1,0 @@
-# Minecraft
-Spigot Installation
