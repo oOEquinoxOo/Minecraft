@@ -1,0 +1,156 @@
+d6adf6e7-1335-4cea-bd0a-4469630d989c:
+  flowerlake:
+    x: -413.9172202477469
+    y: 63.0
+    z: 2193.2777389139437
+    world: world
+    yaw: 175.20215
+    pitch: 13.30466
+  outpostsouth1:
+    x: -7.8341836920590335
+    y: 70.0
+    z: 2359.188802104645
+    world: world
+    yaw: 244.1163
+    pitch: 27.526754
+  newbay:
+    x: 28.859145862443427
+    y: 64.0
+    z: 1957.0859024418094
+    world: world
+    yaw: -20.925268
+    pitch: 14.909943
+  jungle:
+    x: 2695.461810357583
+    y: 63.0
+    z: 1394.7757310743075
+    world: world
+    yaw: -99.08106
+    pitch: 2.2150614
+  mortoutpost:
+    x: -963.7639493667994
+    y: 63.0
+    z: 36.64207669071961
+    world: world
+    yaw: 52.97168
+    pitch: 12.238623
+  sandbay:
+    x: 125.67178035430504
+    y: 73.0
+    z: 2845.172139833833
+    world: world
+    yaw: 42.127655
+    pitch: 17.584406
+  peakcastle:
+    x: -2.50715731714633
+    y: 103.0
+    z: -20.63359650807656
+    world: world
+    yaw: 0.74576825
+    pitch: 11.620094
+  frontierpost:
+    x: -1856.167079882267
+    y: 64.0
+    z: 7009.106362121805
+    world: world
+    yaw: 36.370346
+    pitch: 11.318884
+  thecave:
+    x: -2111.9294820030846
+    y: 81.0
+    z: 8056.115200803697
+    world: world
+    yaw: 122.91632
+    pitch: 2.77764
+  mushroomkingdom:
+    x: -2913.7313982079263
+    y: 85.0
+    z: 7955.195769225397
+    world: world
+    yaw: 78.11603
+    pitch: 22.329346
+  newlandmaybe:
+    x: -3746.240921139838
+    y: 63.0
+    z: 8015.858260597329
+    world: world
+    yaw: -2.8832872
+    pitch: 6.272418
+  coralreef:
+    x: -1895.8434124958412
+    y: 64.0
+    z: 6270.426433861768
+    world: world
+    yaw: -281.11124
+    pitch: 10.171129
+  villagefrontierstaiga:
+    x: -2022.941550499066
+    y: 64.0
+    z: 3722.5186878223876
+    world: world
+    yaw: -271.12192
+    pitch: 30.81616
+  stronghold2:
+    x: 1488.9605301253612
+    y: 23.0
+    z: 1849.1072141112245
+    world: world
+    yaw: 185.71829
+    pitch: 17.741768
+  netherfarportal:
+    x: -233.8014475117702
+    y: 42.0
+    z: 863.5345011079504
+    world: world_nether
+    yaw: 86.13574
+    pitch: 10.40135
+  netherfort:
+    x: -637.006762423923
+    y: 89.0
+    z: 1163.229205683308
+    world: world_nether
+    yaw: -264.9904
+    pitch: 31.277683
+  endcheckpoint:
+    x: -1277.0778559429464
+    y: 62.0
+    z: -557.3956853966093
+    world: world_the_end
+    yaw: 42.030735
+    pitch: 9.052931
+  village1:
+    x: 52.26512187128449
+    y: 70.0
+    z: -935.6641640349012
+    world: world
+    yaw: -217.4056
+    pitch: 17.813717
+0da770a4-5a16-4222-a246-205df48b225a:
+  Kaustle:
+    x: 7.766212822950061
+    y: 89.9375
+    z: -79.63540882025107
+    world: world
+    yaw: -1.2967529
+    pitch: -0.46794435
+  name:
+    x: -953.6070568231249
+    y: 57.0
+    z: 54.369506401291076
+    world: world
+    yaw: 87.90002
+    pitch: 2.8501072
+  demorianoutpost:
+    x: -953.6070568231249
+    y: 57.0
+    z: 54.369506401291076
+    world: world
+    yaw: 87.90002
+    pitch: 2.8501072
+  DemorianCave:
+    x: -1858.0866790682146
+    y: 46.0
+    z: 6932.124420006622
+    world: world
+    yaw: -94.223816
+    pitch: 11.83959
